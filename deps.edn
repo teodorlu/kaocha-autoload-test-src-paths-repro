@@ -1,0 +1,5 @@
+{:deps {}
+ :aliases
+ {:bb {:paths ["bb/src" "bb/test"]
+       :extra-deps {babashka/fs {:mvn/version "0.5.25"}}}
+  :dev {:extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}}}}}
